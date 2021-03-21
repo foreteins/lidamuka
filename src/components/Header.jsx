@@ -32,7 +32,7 @@ function Header(){
             </div>
         <div className="container">
           <div className="header__logo">
-            <img width="80" src={logo} alt="Muka logo" />
+            <img width="7%" src={logo} alt="Muka logo" />
             <div>
               <img width="300" src={logoText} alt="Muka logo" />
               <p align="left">ОАО «Лидахлебопродукт» — это ведущий производитель мукомольной продукции
@@ -43,7 +43,7 @@ function Header(){
           <div className="header__cart">
               <Link to="/cart">
               <Button className="button--cart">
-              <span>{totalPrice} р.</span>
+              <span>{totalPrice} BYN.</span>
               <div className="button__delimiter"></div>
               <svg
                 width="18"
