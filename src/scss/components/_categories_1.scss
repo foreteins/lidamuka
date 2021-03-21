@@ -1,8 +1,17 @@
 @import '../variables';
 
 .categories_1 {
+  flex: 1;
+  max-width: 100%;
+  overflow: auto;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
   ul {
-    float: right;
+    margin-left: 65%;
     display: flex;
     margin-bottom: 15px;
 
