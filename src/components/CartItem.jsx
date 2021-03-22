@@ -19,8 +19,8 @@ const CartItem = ({ id, name, type, size, totalPrice, totalCount, onRemove, onMi
       <div className="cart__item-img">
         <img
           className="pizza-block__image"
-          src="http://localhost:3000/static/media/logo.04acdd9f.png"
-          alt="Pizza"
+          src="https://muka.by/wp-content/uploads/2019/02/logo.svg"
+          alt="Товары"
         />
       </div>
       <div className="cart__item-info">
